@@ -13,7 +13,7 @@ class EmailParser
   end
 
    def parse
-
+     indv_email = emails.gsub(",", " ")
 
  binding.pry
    end
