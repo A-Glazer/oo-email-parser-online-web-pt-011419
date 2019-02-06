@@ -10,6 +10,7 @@ class EmailParser
 
   def initialize(emails)
     new_email = emails.new
+    binding.pry
   end
 
   # def parse(emails)
