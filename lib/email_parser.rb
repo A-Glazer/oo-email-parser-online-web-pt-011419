@@ -6,8 +6,9 @@
 class EmailParser
   attr_accessor :emails
   email_array = []
+
   def parse
-    
+
   end
 
 end
