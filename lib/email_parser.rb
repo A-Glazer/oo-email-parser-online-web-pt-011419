@@ -12,9 +12,9 @@ class EmailParser
     emails
   end
 
-  def parse(emails)
-    emails
-    binding.pry
-  end
+  # def parse(emails)
+  #   emails
+  #   
+  # end
 
 end
