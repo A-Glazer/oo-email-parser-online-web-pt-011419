@@ -9,7 +9,7 @@ class EmailParser
   email_array = []
 
   def initialize(emails)
-    indv_email = emails.split(",")
+    @emails = emails
   end
 
   # def parse(emails)
