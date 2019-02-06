@@ -15,7 +15,7 @@ class EmailParser
    def parse
      indv_email = emails.gsub(",", " ").gsub("  ", " ")
 
-
+binding.pry
    end
 
 end
