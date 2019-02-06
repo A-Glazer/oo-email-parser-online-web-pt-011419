@@ -8,7 +8,7 @@ class EmailParser
   attr_accessor :emails
   email_array = []
 
-  def parse
+  def parse(emails)
     emails
     binding.pry
   end
