@@ -9,8 +9,7 @@ class EmailParser
   email_array = []
 
   def initialize(emails)
-    new_email = emails.new
-    binding.pry
+    emails.split(",")
   end
 
   # def parse(emails)
