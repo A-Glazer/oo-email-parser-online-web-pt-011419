@@ -8,7 +8,7 @@ class EmailParser
   email_array = []
 
   def parse
-    emails.split(" ")
+    emails
   end
 
 end
